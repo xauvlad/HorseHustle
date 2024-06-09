@@ -1,0 +1,129 @@
+.login-form-container,
+.register-form-container,
+.account-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.login-form,
+.register-form,
+.account-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #cccccc;
+  border: solid;
+  border-color: var(--fourth-color);
+  border-width: 1px;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 60rem;
+}
+
+.login-form-input,
+.register-form-input,
+.account-form-input {
+  background-color: var(--fifth-color);
+  display: flex;
+  padding: 1rem;
+  margin-top: 1rem;
+  width: 25rem;
+  border: solid;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: var(--secondary-color);
+  transition: border-color 0.2s;
+}
+
+.login-form-input:focus,
+.register-form-input:focus,
+.account-form-input:focus {
+  outline: none;
+  border-color: #ff83a0;
+}
+
+.login-form-input::placeholder,
+.register-form-input::placeholder,
+.account-form-input::placeholder {
+  color: #9d9d9d;
+  font-size: 1rem;
+}
+
+.login-form-input[type="email"],
+.login-form-input[type="password"],
+.register-form-input[type="text"],
+.register-form-input[type="email"],
+.register-form-input[type="password"],
+.account-form-input[type="text"],
+.account-form-input[type="email"],
+.account-form-input[type="password"] {
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-size: 1rem;
+}
+
+.login-form-title,
+.register-form-title,
+.account-form-title {
+  font-size: 2rem;
+}
+
+.login-form-button,
+.register-form-button,
+.account-form-button {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: none;
+  margin-top: 1rem;
+  align-items: center;
+  padding: 1rem;
+  width: 25rem;
+  background-color: #8f3b76;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.login-form-button:hover,
+.register-form-button:hover,
+.account-form-button:hover {
+  transform: translateY(-2px);
+  background-color: var(--third-color);
+}
+
+.login-form-button-text,
+.register-form-button-text,
+.account-form-button-text {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.form-message {
+  margin-top: 1rem;
+  color: var(--text-color);
+}
+
+.login-form-link,
+.register-form-link {
+  display: flex;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.login-form-link-text,
+.register-form-link-text {
+  margin-left: 0.3rem;
+  color: #8f3b76;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.login-form-link-text:hover,
+.register-form-link-text:hover {
+  color: #f5487f;
+  text-decoration: underline;
+}

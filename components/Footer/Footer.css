@@ -1,0 +1,22 @@
+.footer-container {
+    position: fixed;
+    left: 0.5rem;
+    right: 0.5rem;
+    bottom: 0;
+    width: 99%;
+  }
+  
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eeeeee;
+    font-weight: light;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 1rem;
+    width: 85%;
+    max-width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
