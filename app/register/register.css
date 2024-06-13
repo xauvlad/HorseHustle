@@ -15,7 +15,7 @@
   align-items: center;
   background-color: #cccccc;
   border: solid;
-  border-color: var(--fourth-color);
+  border-color: var(--fifth-color);
   border-width: 1px;
   padding: 2rem;
   border-radius: 8px;
@@ -33,7 +33,7 @@
   border: solid;
   border-radius: 8px;
   border-width: 2px;
-  border-color: var(--secondary-color);
+  border-color: var(--third-color);
   transition: border-color 0.2s;
 }
 
@@ -59,7 +59,7 @@
 .account-form-input[type="text"],
 .account-form-input[type="email"],
 .account-form-input[type="password"] {
-  color: var(--text-color);
+  color: var(--primary-color);
   font-family: var(--font-family);
   font-size: 1rem;
 }
@@ -103,7 +103,7 @@
 
 .form-message {
   margin-top: 1rem;
-  color: var(--text-color);
+  color: #000000;
 }
 
 .login-form-link,

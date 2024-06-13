@@ -4,6 +4,19 @@
   src: url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+:root {
+  --primary-color: #0d0d11;
+  --secondary-color: #f5487f;
+  --third-color: #535353;
+  --fourth-color: #c7417b;
+  --fifth-color: #CCCCCC;
+  --text-color: #eeeeee;
+  --link-color: #8f3b76;
+  --font-family: 'Unbounded', sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
